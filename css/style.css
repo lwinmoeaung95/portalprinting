@@ -1,0 +1,349 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(215, 211, 211);
+}
+
+header{
+    background-color: rgb(4, 81, 81);
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(16, 249, 121);
+    text-transform: uppercase;
+   
+}
+
+.logo{
+    width: 60px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    
+    
+}
+nav{
+    background-color: rgb(5, 35, 25);
+    overflow: hidden;
+    text-transform: uppercase;
+    
+    
+    
+}
+
+.navbtn{
+    text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	float: left;
+    font-size: 15px;
+}
+
+.navbtn:hover{
+    background-color: rgba(87, 107, 72, 0.756);
+    color: rgb(16, 249, 121);
+    border-radius: 10px;
+}
+
+.banner{
+    /* display: inline-block; */
+    width: 100%;
+    height: 800px;
+    position: relative;
+
+}
+
+.bannertext{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    color: rgba(99, 224, 159, 0.683);
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 70px;
+
+}
+
+.producttext{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: 100px;
+    color: rgb(11, 65, 35);
+    font-family: cursive;
+    font-weight: 800;
+    margin-bottom: 100px;
+   
+    
+    
+    
+}
+
+.productimg1{
+    margin-bottom: 300px;
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+    border-radius: 10px;
+    display: block;
+    border: 3px solid rgb(7, 93, 51);
+    border-radius: 10px;
+    background-color: rgb(224, 230, 234);
+    height: auto;
+    margin: 10px 0 10px 0;
+}
+
+/* .row{
+    border: 3px solid rgb(7, 93, 51);
+    border-radius: 10px;
+    background-color: rgb(224, 230, 234);
+    height: auto;
+    margin: 10px 0 10px 0;
+    
+} */
+
+.tshirttext{
+    margin-left: 20px;
+    margin-top: 100px;
+    line-height: 40px;
+    font-size: 20px;
+    border: 3px solid rgb(7, 93, 51);
+    border-radius: 10px;
+    background-color: rgb(224, 230, 234);
+    padding: 20px;
+    
+    
+}           
+
+.buttoneproduct{
+    margin-left: 250px;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+    color: rgb(16, 249, 121);
+    background-color: rgba(16, 17, 17, 0.562);
+}
+
+.buttoneproduct:hover{
+    background-color: bisque;
+    color: rgb(13, 13, 13);
+}
+
+.missionhead{
+  
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: rgb(11, 65, 35);
+    font-family: cursive;
+    font-weight: 800;
+    
+   
+}
+
+.mission{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(11, 65, 35);
+    font-family: cursive;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.missiontext{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(11, 65, 35);
+    font-family: cursive;
+    font-weight: 800;
+    margin-bottom: 100px;
+}
+
+/* .missiontextsv{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(11, 65, 35);
+    font-family: cursive;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+} */
+
+.cardsvs{
+    
+    background-color: rgb(188, 192, 202);
+    border: 1px solid white;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.card-body{
+    height: auto;
+    padding: 20px;
+   
+
+   
+}
+.card-title{
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(11, 65, 35);
+    font-weight: 800;
+
+
+
+}
+
+.lead{
+    font-size: 25px;
+    font-family: cursive;
+    color: rgb(11, 65, 35);
+    text-indent: 10px;
+    text-align: justify;
+
+
+}
+
+.btnsvs{
+    margin-left: 250px;
+    margin-top: 30px;
+    border: 1px solid rgb(235, 229, 229);
+    border-radius: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+    color: rgb(16, 249, 121);
+    background-color: rgba(16, 17, 17, 0.562);
+}
+
+.btnsvs:hover{
+    background-color: bisque;
+    color: rgb(13, 13, 13);
+}
+
+.footer{
+    background-color:rgb(4, 81, 81) ;
+    margin-top: 200px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(16, 249, 121);
+    height: auto;
+}
+
+.footer .h{
+    padding: 10px;
+
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.pimg{
+    margin-top: 15px;
+    border: 1px solid none;
+    border-radius: 10px;
+    width: 100%;
+    height: 250px;
+    transition: 0.5s;
+    text-align: center;
+    
+}
+.pimg:hover{
+    transform: scale(1.1);
+}
+.ptitle{
+    text-align: center;
+    border: 1px solid rgba(11, 65, 35, 0.683);
+    border-radius: 10px;
+    margin-top: 10px;
+    color: rgb(16, 249, 121);
+    background-color:rgb(4, 81, 81) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}   
+
+.col.card{
+    background: #c5cdcf;
+   
+    border: 2px solid rgb(227, 236, 231)  ;
+    border-radius: 20px;
+    float: left;
+}
+
+.prhead{
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: rgb(11, 65, 35);
+    font-family: cursive;
+    font-weight: 800;
+}
+
+.pdtext{
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 40px;
+    font-size: 20px;
+    border: 3px solid rgb(7, 93, 51);
+    border-radius: 10px;
+    background-color: rgb(224, 230, 234);
+    padding: 20px;
+}
+
+.buybtn{
+    margin-left: 250px;
+    margin-top: 30px;
+    border: 1px solid rgb(235, 229, 229);
+    border-radius: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+    color: rgb(16, 249, 121);
+    background-color: rgba(16, 17, 17, 0.562);
+}
+
+.productimg1{
+    width: 100%;
+    height: 600px;
+}
+
+@media screen and (max-width:650px) {
+    .col{
+        width: 90%;
+    }
+    .pimg{
+        height: 250px;
+    }
+}
+
+.svshead{
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.svstext{
+    text-indent: 10px;
+    text-align: justify;
+    margin-left: 10px;
+    line-height: 30px;
+}
